@@ -19,7 +19,7 @@ class Subarray_of_array{
             //b stand for end index
             for(int b=a;b<size;b++){
                 // c is for printing the subarrays
-                for(int c=0;c<size;c++){
+                for(int c=0;c<=b;c++){
                     System.out.println(array[c] + " ");
                 }
             }
